@@ -1,0 +1,73 @@
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+
+/*.contact-main 
+  display: block;
+  width: 100%;
+}*/
+
+.contact-main-wrapper {
+  width: 100%;
+}
+
+.contact-image {
+  width: 100%;
+  position: relative;
+}
+
+.contact-title {
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+}
+
+.contact-form {
+  width: 70%;
+  margin: 100px auto;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+}
+
+label {
+  padding: 10px 10px;
+  font-weight: bold;
+}
+
+.company-form::after {
+  content: "*";
+  color: red;
+}
+
+.contact-name {
+  height: 200px;
+  border: solid;
+  border-color: rgb(167, 167, 167);
+  border-width: 1px;
+}
+
+.name {
+  border: solid;
+  border-color: rgb(167, 167, 167);
+  border-width: 1px;
+}
+
+.contact-btn {
+  background-color: black;
+  color: white;
+  width: 30%;
+  text-align: center;
+  padding: 10px;
+  margin: 20px auto;
+}

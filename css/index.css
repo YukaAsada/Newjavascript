@@ -1,0 +1,316 @@
+
+
+.service-margin {
+  align-items: center;
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+
+/*first-view*/
+.first-view-img {
+  position: relative;
+  width: 100%;
+}
+
+.first-view-content {
+  height: 20vh;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.first-view-content h1 {
+  color: rgb(252, 252, 252);
+  white-space: nowrap;
+  padding: 0 50px;
+  font-size: 50px;
+  display: flex;
+}
+
+.first-view-content p {
+  color: rgb(255, 255, 255);
+  white-space: nowrap;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+/*株式会社TECHの想い*/
+.second-view {
+  margin: 0;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(29, 28, 28);
+  color: rgb(250, 250, 250);
+}
+.second-view-title {
+  padding: 30px auto;
+  text-align: center;
+  font-size: 30px;
+}
+.second-view-content {
+  margin: 0;
+  padding: 80px 80px;
+}
+
+.second-view-detail {
+  padding-top: 30px;
+  margin: 20px auto;
+}
+/*サービス*/
+
+.service-main {
+  margin: 0 auto;
+}
+
+.service-main h1 {
+  width: 100%;
+  margin: 100px auto;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.service-block {
+  padding: 10px auto;
+  display: grid;
+  grid-template-columns: 600px 600px;
+  justify-content: center;
+}
+
+.service-first img {
+  width: 100%;
+  height: 40vh;
+}
+
+.service-second img {
+  width: 100%;
+  height: 40vh;
+}
+
+.service-third img {
+  width: 100%;
+  height: 40vh;
+}
+
+.service-four img {
+  width: 100%;
+  height: 40vh;
+}
+
+.service-btn-main {
+  width: 100%;
+  height: 10vh;
+  text-align: center;
+}
+
+.service-btn {
+  width: 150px;
+  height: 3vh;
+  text-decoration: none;
+  margin-top: 30px;
+  display: inline-block;
+  text-align: center;
+  background-color: rgb(204, 6, 6);
+  color: aliceblue;
+  padding: 5px 20px;
+  margin-left: auto;
+}
+
+.service-btn:hover {
+  background-color: rgb(209, 80, 80);
+}
+
+/*ニュース*/
+.news-container {
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(37, 37, 37);
+  color: rgb(248, 248, 248);
+}
+
+.news-block {
+  width: 90%;
+  height: 5vh;
+  margin: 0 auto;
+}
+
+.news-block-list {
+  height: 10vh;
+}
+
+.news-flex-item {
+  display: flex;
+  text-align: "";
+}
+.news-flex-item h1 {
+  font-size: 30px;
+  padding-top: 25px;
+}
+
+.news-btn {
+  width: 150px;
+  height: 3vh;
+  text-decoration: none;
+  margin-top: 30px;
+  display: inline-block;
+  text-align: center;
+  background-color: rgb(204, 6, 6);
+  color: aliceblue;
+  padding: 5px 10px;
+  margin-left: auto;
+}
+
+/*hover*/
+
+.news-btn:hover {
+  background-color: rgb(206, 67, 67);
+}
+
+.news-list:hover {
+  background-color: rgb(214, 214, 214);
+}
+
+.blog-btn:hover {
+  background-color: rgb(219, 83, 83);
+}
+
+.last-about-company:hover {
+  background-color: rgb(214, 55, 55);
+}
+
+.last-about-recruit:hover {
+  background-color: rgb(63, 63, 63);
+}
+
+.coporate-btn:hover {
+  background-color: rgb(206, 67, 67);
+}
+
+.blog-img:hover {
+  opacity: 0.5;
+}
+
+.news-date:hover {
+  color: rgb(97, 97, 97);
+}
+
+.news-card-content:hover {
+  color: rgb(88, 88, 88);
+}
+
+/*hover*/
+.news-block p {
+  text-align: left;
+  height: 1vh;
+}
+
+.news-content {
+  padding: 0;
+}
+
+.news-list {
+  display: flex;
+  width: 100%;
+  margin-top: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  align-items: center;
+}
+
+.news-date {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.news-content-font {
+  font-weight: bold;
+}
+
+/*ブログ*/
+
+.blog-main {
+  width: 100%;
+  height: 80vh;
+}
+
+.blog-title {
+  text-align: center;
+  margin: 50px auto;
+  font-size: 30px;
+}
+
+.blog-block {
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-card {
+  text-decoration: none;
+  display: block;
+  margin: 0 20px;
+  color: black;
+}
+.blog-img {
+  width: 100%;
+  height: 28vh;
+}
+
+.news-date {
+  margin: 0;
+}
+
+.news-card-content {
+  margin: 10px 0;
+}
+
+.blog-btn-main {
+  width: 100%;
+  height: 20vh;
+  text-align: center;
+}
+
+.blog-btn {
+  width: 200px;
+  height: 5vhvh;
+  text-decoration: none;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  display: inline-block;
+  text-align: center;
+  background-color: rgb(204, 6, 6);
+  color: aliceblue;
+  padding: 5px 20px;
+  margin-left: auto;
+}
+
+/*会社概要・採用情報*/
+.last-main {
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+
+.last-about-company {
+  width: 50%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: rgb(202, 19, 19);
+  color: white;
+}
+
+.last-about-recruit {
+  width: 50%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: rgb(29, 28, 28);
+  color: white;
+}

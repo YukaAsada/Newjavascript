@@ -1,0 +1,66 @@
+.recruit-main-wrapper {
+  width: 100%;
+  position: relative;
+  margin: 0;
+}
+
+.recruit-image {
+  width: 100%;
+  position: relative;
+}
+
+.recruit-title {
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+}
+
+.recruit-main {
+  width: 70%;
+  margin: 100px auto;
+}
+
+.recruit-block {
+  margin: 200px 0;
+}
+
+.recruit-block-title {
+  font-size: 40px;
+  padding: 20px 0;
+  border-bottom: solid;
+  border-width: 3px;
+}
+
+.recruit-table-wrapper {
+  height: 100%;
+}
+
+.recruit-table-content {
+  padding: 30px 0;
+  font-weight: normal;
+}
+
+.recruit-table {
+  width: 100%;
+  border: solid;
+}
+
+.rectuit-table-block {
+  border: solid;
+  border-width: 2px;
+  padding: 20px 0;
+}
+
+.recruit-th {
+  padding: 20px 0;
+  border: solid;
+  background-color: rgb(233, 233, 233);
+}
+
+.recruit-td {
+  padding: 20px 0;
+  padding-left: 20px;
+  border: solid;
+}

@@ -1,0 +1,52 @@
+.company-main-wrapper {
+  width: 100%;
+  position: relative;
+  margin: 0;
+}
+
+.company-image {
+  width: 100%;
+  position: relative;
+}
+
+.company-title {
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+}
+
+.company-block {
+  width: 60%;
+  margin: 100px auto;
+}
+
+.company-list-wrappar {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: solid;
+  border-width: 1px;
+  border-color: rgb(27, 27, 48);
+}
+
+.company-list-title {
+  width: 30%;
+  text-align: center;
+}
+
+.company-detail {
+  width: 100%;
+  padding-left: 200px;
+}
+
+.company-list-wrappar-last {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: solid;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: rgb(27, 27, 48);
+}

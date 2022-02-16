@@ -1,0 +1,58 @@
+.service-container-img {
+  width: 100%;
+}
+
+.service-image {
+  margin: 0;
+  width: 100%;
+  position: relative;
+}
+
+.hr {
+  color: rgb(41, 41, 41);
+  width: 80%;
+}
+
+.service-detail {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  color: rgb(252, 252, 252);
+  font-size: 40px;
+}
+
+.service-main {
+  margin: 100px auto;
+}
+
+.service-main-li {
+  display: inline-block;
+  list-style: none;
+  margin: 30px auto;
+}
+
+.service-main-ul {
+  width: 70%;
+  margin: 50px auto;
+}
+
+.service-main-content {
+  display: flex;
+}
+
+.service-sub-content {
+  margin: 30px 10px;
+}
+
+.service-img {
+  width: 25%;
+}
+
+/*サービス疑似要素*/
+
+/*.service-main-li::before {
+  content: border;
+  width: 300px;
+  height: 2px;
+  color: rgb(39, 39, 39);
+}*/

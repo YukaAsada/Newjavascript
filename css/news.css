@@ -1,0 +1,41 @@
+.service-container-main {
+  margin: 100px auto;
+  align-items: center;
+  width: 70%;
+  height: 300px;
+}
+
+.service-main-list {
+  width: 100%;
+  display: flex;
+  padding: 30px 10px;
+  margin: 30px auto;
+  border: solid;
+  border-width: 1px;
+  display: flex;
+}
+
+.service-date {
+  text-align: center;
+  width: 20%;
+}
+
+.service-content {
+  width: 40%;
+  display: flex;
+  font-weight: bold;
+}
+
+.news-image {
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+
+.news-title {
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+}
