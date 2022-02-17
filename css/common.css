@@ -56,7 +56,7 @@
   }
   .menu-nav {
     display: block;
-    position: absolute;
+    position: fixed;
     height: 100vh;
     width: 100%;
     top: 0;
@@ -209,4 +209,20 @@ a {
   list-style-type: none;
   font-size: small;
   margin: auto 10px;
+}
+
+/*タイトル画像*/
+.image-wrapper {
+  background-image: url(../img/mv.png);
+  height: 50vh;
+  width: 100ww;
+}
+
+.wrapper-title {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+  padding-top: 150px;
+  padding-right: auto;
 }
