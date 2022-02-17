@@ -10,18 +10,23 @@
   background-image: url(../img/mv.png);
   width: 100vw;
   height: 100vh;
+  position: relative;
 }
 
 .first-view-content h1 {
   color: rgb(252, 252, 252);
+  font-size: 50px;
   align-items: center;
+  position: absolute;
+  top: 40%;
+  left: 20%;
 }
 
 .first-view-content p {
   color: rgb(255, 255, 255);
   white-space: nowrap;
   position: absolute;
-  top: 70%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 25px;

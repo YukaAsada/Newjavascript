@@ -11,6 +11,13 @@
   .header-nav {
     display: none;
   }
+
+  .menu-wrapper {
+    position: fixed;
+    top: 20px;
+    right: 10px;
+  }
+  
   .menu {
     display: inline-block;
     width: 36px;
@@ -216,13 +223,14 @@ a {
   background-image: url(../img/mv.png);
   height: 50vh;
   width: 100ww;
+  position: relative;
 }
 
 .wrapper-title {
   display: flex;
-  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 45%;
   font-size: 40px;
   color: white;
-  padding-top: 150px;
-  padding-right: auto;
 }
