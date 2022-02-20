@@ -5,6 +5,7 @@
 
 .menu-nav {
   display: none;
+  z-index: 6;
 }
 
 @media screen and (max-width: 768px) {
