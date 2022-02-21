@@ -8,6 +8,10 @@
   z-index: 6;
 }
 
+.blog-block {
+  display: flex;
+}
+
 @media screen and (max-width: 768px) {
   .header-nav {
     display: none;
@@ -99,16 +103,11 @@
   }
 
   .service-margin {
-    align-items: center;
-    margin-left: auto;
+    flex-wrap: wrap;
   }
 
   .blog-main {
     width: 100%;
-  }
-
-  .blog-block {
-    display: flex;
   }
 }
 

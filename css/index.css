@@ -11,23 +11,23 @@
   width: 100vw;
   height: 100vh;
   position: relative;
+  text-align: centers;
 }
 
-.first-view-content h1 {
+.first-view-main-title {
   color: rgb(252, 252, 252);
   font-size: 50px;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  position: absolute;
-  top: 40%;
-  left: 20%;
 }
 
-.first-view-content p {
+.first-view-content-sub {
   color: rgb(255, 255, 255);
   white-space: nowrap;
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transform: translate(-50%, -50%);
   font-size: 25px;
 }
@@ -59,6 +59,7 @@
 
 .service-main {
   margin: 0 auto;
+  justify-content: center;
 }
 
 .service-main h1 {
