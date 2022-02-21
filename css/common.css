@@ -87,6 +87,29 @@
   .in {
     transform: translate(100%);
   }
+  .first-view-content-sub {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .service-block {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .service-margin {
+    align-items: center;
+    margin-left: auto;
+  }
+
+  .blog-main {
+    width: 100%;
+  }
+
+  .blog-block {
+    display: flex;
+  }
 }
 
 /*ハンバーガーメニュー*/
@@ -231,7 +254,7 @@ a {
   display: flex;
   position: absolute;
   top: 50%;
-  left: 45%;
+  left: 50%;
   font-size: 40px;
   color: white;
 }
