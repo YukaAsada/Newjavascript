@@ -10,8 +10,6 @@
   background-image: url(../img/mv.png);
   width: 100vw;
   height: 100vh;
-  position: relative;
-  text-align: centers;
 }
 
 .first-view-main-title {
@@ -28,7 +26,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: translate(-50%, -50%);
   font-size: 25px;
 }
 
@@ -71,6 +68,7 @@
 }
 
 .service-block {
+  margin: 0 auto;
   padding: 10px auto;
   display: grid;
   grid-template-columns: 600px 600px;
@@ -290,6 +288,7 @@
 /*会社概要・採用情報*/
 .last-main {
   width: 100%;
+  height: 25vh;
   display: flex;
   text-align: center;
 }

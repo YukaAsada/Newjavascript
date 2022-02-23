@@ -13,6 +13,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .blog-block {
+    display: flex;
+  }
   .header-nav {
     display: none;
   }
@@ -104,6 +107,7 @@
 
   .service-margin {
     flex-wrap: wrap;
+    margin: 0 auto;
   }
 
   .blog-main {
@@ -245,15 +249,16 @@ a {
 .image-wrapper {
   background-image: url(../img/mv.png);
   height: 50vh;
-  width: 100ww;
-  position: relative;
+  width: 100vw;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .wrapper-title {
   display: flex;
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   font-size: 40px;
   color: white;
 }
