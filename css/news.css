@@ -17,13 +17,14 @@
 
 .service-date {
   text-align: center;
-  width: 20%;
+  width: 30vw;
 }
 
 .service-content {
-  width: 40%;
   display: flex;
   font-weight: bold;
+  width: 50vw;
+  white-space: normal;
 }
 
 .news-image {

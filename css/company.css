@@ -32,13 +32,13 @@
 }
 
 .company-list-title {
-  width: 30%;
+  width: 30vw;
   text-align: center;
 }
 
 .company-detail {
   width: 100%;
-  padding-left: 200px;
+  padding-left: 20vw;
 }
 
 .company-list-wrappar-last {

@@ -38,16 +38,19 @@ a {
 }
 
 .blog-block {
+  font-display: flex;
   align-items: center;
-  margin: 100px 100px;
-  display: grid;
+  flex-wrap: wrap;
+  /*display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;*/
 }
 
 .blog-block-main {
-  margin-right: 40px;
-  margin-top: 80px;
+  width: 30%;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 10%;
 }
 
 .blog-font {

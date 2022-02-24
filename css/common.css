@@ -98,11 +98,18 @@
     display: flex;
     flex-wrap: wrap;
   }
+  
+  .service-image {
+    width: 100%;
+    Height:auto;
+  }
 
   .service-block {
-    width: 100vw;
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
   }
 
   .service-margin {
@@ -110,8 +117,11 @@
     margin: 0 auto;
   }
 
-  .blog-main {
+  .blog-block {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }
 
@@ -247,18 +257,23 @@ a {
 
 /*タイトル画像*/
 .image-wrapper {
-  background-image: url(../img/mv.png);
+  background: url(../img/mv.png) center / cover;
   height: 50vh;
   width: 100vw;
+  display: flex;
   align-items: center;
+  justify-content: center;
   margin: 0 auto;
+  font-size: 40px;
+  color: white;
 }
 
-.wrapper-title {
+/*.wrapper-title {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-size: 40px;
   color: white;
-}
+}*/
