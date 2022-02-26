@@ -98,11 +98,6 @@
     display: flex;
     flex-wrap: wrap;
   }
-  
-  .service-image {
-    width: 100%;
-    Height:auto;
-  }
 
   .service-block {
     justify-content: center;
@@ -110,6 +105,11 @@
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
+  }
+
+  .service-image {
+    width: 100%;
+    height: auto;
   }
 
   .service-margin {
@@ -122,6 +122,11 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+  }
+
+  .footer-ul {
+    display: block;
+    align-items: center;
   }
 }
 
