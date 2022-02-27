@@ -83,7 +83,7 @@
   justify-content: center;
 }
 
-.service-first img {
+/*.service-first img {
   width: 100%;
   height: 40vh;
 }
@@ -101,6 +101,10 @@
 .service-four img {
   width: 100%;
   height: 40vh;
+}*/
+
+.service-image {
+  width: 100%;
 }
 
 .service-btn-main {
